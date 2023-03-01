@@ -1,0 +1,48 @@
+/*-------------------------------------
+Reset
+---------------------------------------*/
+*           		{margin: 0; padding: 0; position: absolute; -webkit-box-sizing: border-box; box-sizing: border-box;}
+#banner *   		{position: absolute;}
+#banner br  		{position: static;}
+img         		{border: none; width: 300px;}
+
+/*-------------------------------------
+Layout
+---------------------------------------*/
+#ad             {width: 300px; height: 250px; -moz-user-select: -moz-none; -khtml-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;}
+#banner         {position: absolute; display: block; width: 300px; height: 250px; overflow: hidden; cursor: pointer; visibility: hidden; background: #0051d2;}
+.clicktag       {width: 100%; height: 100%; z-index: 10; cursor: pointer; background:transparent; border:1px solid rgba(0, 0, 0, .25);}
+.clicktag img   {border: none; outline: none;}
+#frame_one, #frame_two, #frame_three, #frame_four, #common    {width: 100%; height: 250px;}
+
+/*-------------------------------------
+Banner Body
+---------------------------------------*/
+.bg				  		{width: 300px; height: 250px;}
+.deep_purple		{background: #ba0048;}
+.deep_blue		  {background: #0051d2;}
+.be2						{top:30px;}
+.be3						{top:64px;}
+
+.triangle1			{width: 200px; left: 75px; top: -75px;}
+.triangle2			{width: 350px;}
+.triangle3			{width: 300px; left: -138px; top: 27px;}
+
+.text1					{width:0px; height: 25px; top: 67px; left: 21px; overflow: hidden; border-right: 2px solid #ffffff;}
+.cursor1				{width:2px; height: 25px; top: 0px;  left: 95px; overflow: hidden; background: #fff;}
+.txt1_3			  	{top: -67px; left: -21px;}
+
+
+.text2					{width:0px; height: 32px; top: 101px; left: 20px; overflow: hidden; border-right: 2px solid #ffffff;}
+.cursor2				{width:2px; height: 32px; top: 0px; left: 179px; overflow: hidden; background: #fff;}
+.txt2_3					{top: -101px; left: -20px;}
+
+
+.text3					{width:0px; height: 32px; top: 67px; left: 20px; overflow: hidden; border-right: 2px solid #ffffff;}
+.cursor3				{width:2px; height: 32px; top: 0px; left: 118px; overflow: hidden; background: #fff;}
+.txt3_3					{top: -67px; left: -20px;}
+
+
+.text4					{width:0px; height: 25px; top: 68px; left: 22px; overflow: hidden; border-right: 2px solid #ffffff;}
+.cursor4				{width:2px; height: 25px; top: 0px; left: 212px; overflow: hidden; background: #fff;}
+.txt4_3					{top: -68px; left: -22px;}
